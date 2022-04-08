@@ -13,7 +13,7 @@
 > - And, I like my roomates
 > 'code?'
 > ---
-> This is the link to my site: [Summers Website](www.example.com)
+> This is the link to my site: [Summers Website](https://summerschulte.github.io/summerschulte-cse15l-lab-reports/)
 > ---
-> ![cat](mirrorcat.jpg)
+> ![Image](mirrorcat.jpg)
 > 
