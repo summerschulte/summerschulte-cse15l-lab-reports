@@ -15,5 +15,5 @@
 > ---
 > This is the link to my site: [Summers Website](https://summerschulte.github.io/summerschulte-cse15l-lab-reports/)
 > ---
-> ![Image](mirrorcat.jpg)
+> ![Image](mirrorcat.png)
 > 
