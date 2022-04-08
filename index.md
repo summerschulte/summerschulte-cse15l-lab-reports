@@ -18,4 +18,4 @@
 >  ![Image](mirrorcat.png)
 > 
 I dont know why my image wont show up :\
-[Lab Report 1](https://summerschulte.github.io/summerschulte-cse15l-lab-reports/lab-report-1-week-2.md.)
+[Lab Report 1](https://summerschulte.github.io/summerschulte-cse15l-lab-reports/lab-report-1-week-2.md)
