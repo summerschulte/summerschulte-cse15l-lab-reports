@@ -21,7 +21,7 @@ Connecting your machine to connect to a remote computer. This is important so th
 - Enter your password.
 
 It should look something like this:
-![Image](SS.png)
+![Image](login.png)
 
 We will call your computer the *client* and the computer in the lab the *server*.
 
@@ -48,7 +48,7 @@ Now try these!
 - cat /home/linux/ieng6/cs15lsp22/public/hello.txt
 
 **Here is an example output**
-![Image](commands.png)
+![Image](ccommands.png)
 
 ---
 ### *To log out:* Ctrl-D
@@ -91,7 +91,7 @@ class WhereAmI {
 
 
 It should look something like this:
-  ![Image](ssh.png)
+  ![Image](where.png)
 
 ## Step 5: SSH Keys 
 
@@ -103,11 +103,11 @@ The public key is copied into the server somewhere and the private key is copied
 ### To set it up, run this line in the terminal (not for Windows):
 **ssh-keygen**
 
-You will be prompted to type more into the terminal after this. 
+You will be prompted to type more into the terminal after this. Look at the photo for more imformation on the command lines. Change my username "summerschulte" to yours. For the passphrase, make sure you make it empty!
 
-It should look something like this:
+It should look something like this: 
 
-![Image](sshkeys.png)
+![Image](keys.png)
 
 ### For windows, use this command:
 **ssh-keygen -t ed25519**
@@ -125,4 +125,16 @@ Now you can use ssh or scp instead of your password!
 Task: Use what we have learned so that you can best make any local edits to *WhereAmI.java* and copying it to the remote server and running it. 
 
 Hint: Put a command in quotes at the end of the ssh command so that you can run it directly on the remote server. Also, using semicolons allows for you to run multiple comands on the same line. Use the up arrow in the terminal to recall previous commands. 
+
+Here is an example:
+
+![Image](last.png)
+---
+
+
+
+
+
+
+### Congrats! You have succesffully logged in and learned new information for connecting!
 
