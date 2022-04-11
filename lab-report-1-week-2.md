@@ -3,7 +3,7 @@
 [This](https://code.visualstudio.com/) website will give directions on how to install VSC onto your computer. There are directions for all kinds of platforms (windows/mac) etc. 
 https://summerschulte.github.io/summerschulte-cse15l-lab-reports/lab-report-1-week-2.md
 
-![Image](VSdownload.png)
+![Image](VS.png)
 
 ## Step 2: Remotely Connecting
 Connecting your machine to connect to a remote computer. This is important so that you can do work on multiple computers.
@@ -57,4 +57,66 @@ Now try these!
 
 This is an important step as you will learn how to *work remotely* and copy files between computers. This is useful because you may want to work both locally and remotely!
 
-The command to do this is called **scp**. 
+The command to do this is called **scp**. It will always be run from the *client* (your computer).
+
+1. Create a file in your computer called **WhereAmI.java**
+
+class WhereAmI {
+
+    public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+
+    }
+
+}
+
+2.  Now run it using *javac *.java** and observe the output.
+
+3. In the terminal and directory where you made this file, insert this command line but replace 'zz' with your username.         
+
+  **scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/**
+
+  You will be asked to put your password again. 
+
+  4. Log back into ieng6 using ssh and run the *ls* command. This will display the WhereAmI file.
+
+
+It should look something like this:
+  ![Image](ssh.png)
+
+## Step 5: SSH Keys 
+
+This is a great solution for the very repeptive task of putting in your password everytime you log in or use scp.
+
+**ssh-kaygen** creates two files: the **public key** and **private key**.
+The public key is copied into the server somewhere and the private key is copied somewhere into the client. The ssh command helps replace your password with these files. 
+
+### To set it up, run this line in the terminal (not for Windows):
+**ssh-keygen**
+
+You will be prompted to type more into the terminal after this. 
+
+It should look something like this:
+
+![Image](sshkeys.png)
+
+### For windows, use this command:
+**ssh-keygen -t ed25519**
+
+Here, the private key is the file *id_rsa* and the public key is the file *id_rsa.pub*, all stored in the .ssh directory. 
+
+### Now, copy the public key to the .ssh directory by using:
+
+**$ ssh cs15lsp22zz@ieng6.ucsd.edu**
+
+Now you can use ssh or scp instead of your password!
+
+## Step 6: Optimizing Remote Running
+
+Task: Use what we have learned so that you can best make any local edits to *WhereAmI.java* and copying it to the remote server and running it. 
+
+Hint: Put a command in quotes at the end of the ssh command so that you can run it directly on the remote server. Also, using semicolons allows for you to run multiple comands on the same line. Use the up arrow in the terminal to recall previous commands. 
+
