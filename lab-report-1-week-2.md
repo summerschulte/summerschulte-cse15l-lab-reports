@@ -61,6 +61,9 @@ The command to do this is called **scp**. It will always be run from the *client
 
 1. Create a file in your computer called **WhereAmI.java**
 
+
+
+
 class WhereAmI {
 
     public static void main(String[] args) {
@@ -72,6 +75,9 @@ class WhereAmI {
     }
 
 }
+
+
+
 
 2.  Now run it using *javac *.java** and observe the output.
 
