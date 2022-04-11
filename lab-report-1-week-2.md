@@ -1,7 +1,7 @@
 # How to Log Into Course-Specific ieng6 Account
 ## Step 1: Download **Visual Studio Code**
 [This](https://code.visualstudio.com/) website will give directions on how to install VSC onto your computer. There are directions for all kinds of platforms (windows/mac) etc. 
-https://summerschulte.github.io/summerschulte-cse15l-lab-reports/lab-report-1-week-2.md
+
 
 ![Image](VS.png)
 
