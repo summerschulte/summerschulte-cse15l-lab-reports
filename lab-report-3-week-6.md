@@ -8,13 +8,17 @@ Here, we will learn how configuration files can be used to make the process of l
 - Make sure that it is in your ssh directory.
 
 **Step 2:** Add the following lines into the file.
+
 <code>
 
     Host ieng6
         HostName ieng6.ucsd.edu
         User cs15lsp22zzz (use your     username)
 </code>
+
+
 The file will look something like this:
+
 
 ![Image](file.png)
 
