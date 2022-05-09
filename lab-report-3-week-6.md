@@ -1,5 +1,5 @@
 # Lab Report 3 Week 6
-## Streamlining ssh Configuration
+## **Streamlining ssh Configuration**
 Here, we will learn how configuration files can be used to make the process of logging into servers easier.
 
 **Step 1:** Open up or create a <code> ~/.ssh/config </code> file.
@@ -31,6 +31,11 @@ Like this:
 
 Now, we can even try copying files into your account using *scp*!
 
+
 ![Image](terminal.png)
+
+
+## **Setup Github Access from ieng6**
+
 
 
