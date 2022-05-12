@@ -44,7 +44,9 @@ My public key is stored on GitHub and I was able to see it through the command *
 I was able to add it to GitHub here:
 ![Image](keysgit.png)
 
-Now, we can commit and push by using these keys
+Now, we can commit [here](https://github.com/summerschulte/skilldemo2/commit/a74e40b2d356ab4253923bcd43257724a1dcad77) and push by using these keys
+
+![Image](commit.png)
 
 
 
