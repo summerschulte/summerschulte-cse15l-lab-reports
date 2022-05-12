@@ -37,5 +37,32 @@ Now, we can even try copying files into your account using *scp*!
 
 ## **Setup Github Access from ieng6**
 
+My public key is stored on GitHub and I was able to see it through the command **ls**
+
+![Image](locationofkeys.png)
+
+I was able to add it to GitHub here:
+![Image](keysgit.png)
+
+Now, we can commit and push by using these keys
+
+
+
+
+
+## **Copy Whole Directories with <code> scp </code>** 
+
+Start off by copying your markdown directory into the ieng6 account 
+
+![Image](copy.png)
+
+Now we will log into our ieng6 account and compile the files 
+
+![Image](logging.png)
+
+
+Lastly, combining ssh and scp, ; to copy the whole directory 
+
+![Image](bigline.png)
 
 
