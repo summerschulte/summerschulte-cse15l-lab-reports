@@ -90,8 +90,6 @@ Here are the results (passed):
 3) Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 - Yes, I do think I can make some small changes to my program that could solve snippet 3. This file contains similar formatting to what my current program can solve except there are lots of lines and blank spacing. I could change my code to looking for the next character rather than looking directly at the next index in the string. 
 
----
-
 
 
 
