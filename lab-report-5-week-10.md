@@ -14,6 +14,9 @@ Here, I found multiple test files that contined different results but only chose
 To decide which implementation is correct, I used the CommonMark demo site. For this test, the correct output should be 
 
     []
+
+
+
 ### Output from other implementation
 *(Correct Output)*
 
@@ -33,6 +36,7 @@ The code below is what I believe to be the bug for this test file. The problem w
 To decide which implementation is correct, I used the CommonMark demo site. For this test, the correct output should be
 
     []
+
 
 ### Output from other implementation
 *(Correct Output)*
